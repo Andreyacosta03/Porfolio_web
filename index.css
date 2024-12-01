@@ -421,5 +421,5 @@ body {
   }
 
  .div_grid{
-   grid-template-columns: repeat(auto-fit, 380px;
+   grid-template-columns: repeat(auto-fit, 380px);
 }
