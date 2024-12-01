@@ -420,5 +420,6 @@ body {
     height: 180px;
   }
 
- 
+ .div_grid{
+   grid-template-columns: repeat(auto-fit, 380px;
 }
