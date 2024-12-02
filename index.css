@@ -420,6 +420,35 @@ body {
     height: 180px;
   }
 
- .div_grid{
-   grid-template-columns: repeat(auto-fit, 380px);
+ .div_grid {
+    display: flex;
+    overflow-x: auto; /* Permite el desplazamiento horizontal */
+    gap: 10px; /* Espacio entre los elementos */
+    padding: 10px;
+    scroll-snap-type: x mandatory; /* Activa el snapping horizontal */
+    -webkit-overflow-scrolling: touch; /* Suaviza el desplazamiento en dispositivos móviles */
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho del viewport */
+    box-sizing: border-box; /* Incluye padding dentro del ancho total */
+  }
+
+  .grid_item {
+    flex: 0 0 80%; /* Cada elemento ocupa el 80% del ancho del contenedor */
+    height: 200px; /* Altura fija para los elementos */
+    background-color: #4caf50; /* Color de fondo para visibilidad */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 8px; /* Opcional: bordes redondeados */
+    scroll-snap-align: start; /* Alinea los elementos al inicio del contenedor al deslizar */
+  }
+}
+@media (hover: none) and (pointer: coarse) {
+  .grid-item {
+    transition: none;
+  }
+
+  .grid-item:hover {
+    transform: none;
+  }
 }
