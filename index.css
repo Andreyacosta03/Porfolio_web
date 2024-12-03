@@ -482,13 +482,13 @@ body {
     order: 2;
   }
   .home_content h1 {
-    font-size: 1.4em;
-  }
-  .home_content h3 {
     font-size: 1.5em;
   }
+  .home_content h3 {
+    font-size: 1.6em;
+  }
   .home_content p {
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
   .btn {
     width: 70%;
@@ -513,7 +513,7 @@ body {
     height: 180px;
   }
   .section_proyects {
-    margin: 20px 0;
+    margin: 30px 0;
   }
   .div_grid {
     display: flex;
@@ -537,7 +537,7 @@ body {
     transform: none;
   }
   .grid_item p {
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
   .grid_item .btn {
     width: 100%;
