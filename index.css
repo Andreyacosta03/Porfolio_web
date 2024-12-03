@@ -558,6 +558,25 @@ body {
   .segunda_formacion_academica {
     width: 80%;
   }
+  .formacion_academica h2 {
+    font-size: 1em;
+  }
+  .formacion_academica h3 {
+    font-size: 0.9em;
+  }
+  .formacion_academica p {
+    font-size: 0.8em;
+  }
+
+  .segunda_formacion_academica h2 {
+    font-size: 1em;
+  }
+  .segunda_formacion_academica h3 {
+    font-size: 0.9em;
+  }
+  .segunda_formacion_academica p {
+    font-size: 0.8em;
+  }
 }
 
 @media screen and (min-width: 500px) {
