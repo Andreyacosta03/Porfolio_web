@@ -111,7 +111,7 @@ body {
 }
 
 .section_inform {
-  max-width: 100%;
+  width: 80%;
   box-sizing: border-box;
   min-height: 100vh;
   display: flex;
@@ -388,6 +388,47 @@ body {
   background: linear-gradient(45deg, #f06, #3cf);
 }
 
+/*INICIO*/
+.section_formacion {
+  width: 70%;
+  padding: 20px 20px; /* Espaciado superior e inferior */
+  display: flex;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+
+/*PRIMER HIJO*/
+.formacion_academica {
+  width: 50%;
+  text-align: left;
+}
+.formacion_academica h2 {
+  color: #9af4a2;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.formacion_academica h3 {
+  color: #557658;
+  margin: 5px 0;
+}
+
+/*SEGUNDO HIJO*/
+/* Sección que contiene las tarjetas */
+.segunda_formacion_academica {
+  width: 50%;
+}
+.segunda_formacion_academica h2 {
+  color: #9af4a2;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 10px;
+}
+.segunda_formacion_academica h3 {
+  color: #557658;
+  margin: 5px 0;
+}
+
 @media screen and (max-width: 800px) {
   body {
     font-size: 14px;
@@ -501,6 +542,21 @@ body {
   .grid_item .btn {
     width: 100%;
     margin: 5px 0;
+  }
+  .section_formacion {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .formacion_academica {
+    width: 80%;
+  }
+  .formacion_academica h2 {
+    text-align: center;
+    margin: 15px;
+  }
+  .segunda_formacion_academica {
+    width: 80%;
   }
 }
 
